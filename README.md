@@ -1,6 +1,5 @@
 # Base58Encoding
 Base58 is a group of binary-to-text encoding schemes used to represent large integers as alphanumeric text.
-/*
  * Copyright 2011 Google Inc.
  * Copyright 2018 Andreas Schildbach
  *
@@ -15,11 +14,11 @@ Base58 is a group of binary-to-text encoding schemes used to represent large int
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
  
  
  
- /**
+ 
+ 
  * Base58 is a way to encode Bitcoin addresses (or arbitrary data) as alphanumeric strings.
  * <p>
  * Note that this is not the same base58 as used by Flickr, which you may find referenced around the Internet.
@@ -42,4 +41,4 @@ Base58 is a group of binary-to-text encoding schemes used to represent large int
  * base-256 digits, convert the number to be represented using base-58 digits, preserve the exact
  * number of leading zeros (which are otherwise lost during the mathematical operations on the
  * numbers), and finally represent the resulting base-58 digits as alphanumeric ASCII characters.
- */
+ 
